@@ -32,4 +32,4 @@ export const items: MenuItem[] = [
   ]),
 ];
 
-export const defaultSelectedKey = "1-3";
+export const defaultSelectedKey = "1-1";

@@ -1,7 +1,6 @@
 import Login from "@/example/login";
 import React, { useCallback, useMemo, useState } from "react";
 import { Layout, Menu, theme } from "antd";
-import "./index.css";
 import { defaultSelectedKey, items } from "./utils";
 import Dialog from "@/example/dialog";
 import Form from "@/example/form";
@@ -9,6 +8,8 @@ import Table from "@/example/table";
 import Chat from "@/example/chat";
 import ScrollList from "@/example/scrollList";
 import TodoList from "@/example/todoList";
+
+import "./index.css";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -51,7 +52,7 @@ const Index: React.FC = () => {
         collapsed={collapsed}
         onCollapse={(value) => setCollapsed(value)}
       >
-        <div className="demo-logo-vertical" />
+        <div />
         <Menu
           theme="dark"
           mode="inline"
